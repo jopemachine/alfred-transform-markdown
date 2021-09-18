@@ -1,0 +1,42 @@
+{
+  "name": "alfred-transform-markdown",
+  "version": "0.0.1",
+  "description": "Transform texts with markdown form",
+  "license": "MIT",
+  "repository": "jopemachine/alfred-transform-markdown",
+  "author": {
+    "name": "jopemachine",
+    "email": "jopemachine@naver.com"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "*.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "quotes",
+    "quote-transform",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.12.1",
+    "clipboardy": "^2.3.0",
+    "markdown-table": "^3.0.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
