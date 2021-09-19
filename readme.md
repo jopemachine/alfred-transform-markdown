@@ -1,6 +1,14 @@
 # alfred-transform-markdown
 
+[![NPM version](https://badge.fury.io/js/alfred-transform-markdown.svg)](http://badge.fury.io/js/alfred-transform-markdown)
+[![npm download total](https://img.shields.io/npm/dt/alfred-transform-markdown)](https://www.npmjs.com/package/alfred-transform-markdown)
+[![license](https://img.shields.io/github/license/jopemachine/alfred-transform-markdown.svg)](https://github.com/jopemachine/alfred-transform-markdown/blob/master/LICENSE)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![GitHub issues](https://img.shields.io/github/issues/jopemachine/alfred-transform-markdown.svg)](https://GitHub.com/jopemachine/alfred-transform-markdown/issues/)
+
 > Transform texts with markdown form
+
+Any kinds of feature requests are welcomed!
 
 ![demo](./demo1.gif)
 
