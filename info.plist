@@ -36,6 +36,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A7AE2D41-0F25-40BF-896A-BF711A722E0D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>735E694F-EA06-4B15-A895-6B89E2BA1AC8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C51351B1-AAC6-4F12-B5D6-3F11C86DB4C6</key>
 		<array>
 			<dict>
@@ -53,7 +66,7 @@
 	<key>createdby</key>
 	<string>jopemachine</string>
 	<key>description</key>
-	<string></string>
+	<string>Transform markdown text</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -104,7 +117,7 @@
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
-				<false/>
+				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
 				<key>argumenttreatemptyqueryasnil</key>
@@ -136,7 +149,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Transform text with markdown form</string>
+				<string>Transform markdown text</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -148,6 +161,37 @@
 			<string>735E694F-EA06-4B15-A895-6B89E2BA1AC8</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>A7AE2D41-0F25-40BF-896A-BF711A722E0D</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -164,13 +208,13 @@
 						<key>matchstring</key>
 						<string>true</string>
 						<key>outputlabel</key>
-						<string></string>
+						<string>Copy and Paste directly</string>
 						<key>uid</key>
 						<string>ACC7FDBF-09AF-4459-AEDC-F9FFE826DECA</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>else</string>
+				<string>Copy</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -181,36 +225,43 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Transform markdown text</string>
 	<key>uidata</key>
 	<dict>
 		<key>06D7BE61-FC60-438B-BC78-92ABF1B1C679</key>
 		<dict>
 			<key>xpos</key>
-			<integer>625</integer>
+			<integer>755</integer>
 			<key>ypos</key>
-			<integer>470</integer>
+			<integer>315</integer>
 		</dict>
 		<key>6F7FD941-A4C9-43B4-8855-6017D57FD7F9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>960</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>290</integer>
 		</dict>
 		<key>735E694F-EA06-4B15-A895-6B89E2BA1AC8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>415</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>295</integer>
+		</dict>
+		<key>A7AE2D41-0F25-40BF-896A-BF711A722E0D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>245</integer>
+			<key>ypos</key>
+			<integer>295</integer>
 		</dict>
 		<key>C51351B1-AAC6-4F12-B5D6-3F11C86DB4C6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>595</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>295</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -218,9 +269,11 @@
 		<key>useAutoPaste</key>
 		<string>true</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string></string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/jopemachine/alfred-transform-markdown</string>
 </dict>
 </plist>
